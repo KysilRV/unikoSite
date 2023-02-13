@@ -184,6 +184,7 @@ if (document.querySelector('#index')) {
             continueModal.classList.add('animate__fadeOut');
             continueModal.classList.remove('animate__fadeIn');
             body.style.overflowY = 'scroll';
+            cartBtn.style.display = 'block';
             cartBtn.classList.remove('animate__fadeOut');
             cartBtn.classList.add('animate__fadeIn');
             setTimeout(() => {
